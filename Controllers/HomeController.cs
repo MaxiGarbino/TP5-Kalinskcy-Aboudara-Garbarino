@@ -21,6 +21,12 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Comenzar(){
+            return View();
+        }
+    public IActionResult Habitacion(int sala, string clave){
+            return View();
+        }
     public IActionResult Privacy()
     {
         return View();
