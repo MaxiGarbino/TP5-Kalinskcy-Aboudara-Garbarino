@@ -17,16 +17,21 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Habitacion1()
+    {
+        return View();
+    }
     public IActionResult Tutorial(){
         return View();
     }
+    public IActionResult Creditos(){
+        return View();
+    }
+
 
     public IActionResult Comenzar(){
             return View("Habitacion"+Escape.GetEstadoJuego().ToString());
         }
-    public IActionResult Creditos(){
-        return View();
-    }
     public IActionResult Habitacion(int sala, string clave){
         const int maxSala = 4;
         if(sala==Escape.GetEstadoJuego()){
