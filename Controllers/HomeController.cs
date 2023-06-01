@@ -22,10 +22,20 @@ public class HomeController : Controller
     }
 
     public IActionResult Comenzar(){
-            return View();
+            return View("Habitacion"+Escape.GetEstadoJuego().ToString());
         }
+    public IActionResult Creditos(){
+        return View();
+    }
     public IActionResult Habitacion(int sala, string clave){
-            return View();
+        const int maxSala = 4;
+        if(sala==Escape.GetEstadoJuego()){
+            if(!Escape.ResolverSala(sala,clave)) 
+                ViewBag.Error = "Clave incorrecta";
+        }
+        if(Escape.GetEstadoJuego() > maxSala)  
+            return View("Victoria");
+        return View("Habitacion"+Escape.GetEstadoJuego().ToString());
         }
     public IActionResult Privacy()
     {

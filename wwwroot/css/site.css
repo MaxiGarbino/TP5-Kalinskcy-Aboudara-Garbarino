@@ -19,4 +19,17 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #838383;
+  color: rgb(241, 241, 241);
+}
+section > img{
+  width: 20%;
+  height: 30%;
+}
+div > .botones{
+  justify-content: center;
+  text-align: center;
+  width: 3%;
+  height: auto;
+  border-radius: 10px;
 }
