@@ -1,8 +1,27 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="text-center">
-    <h1 class="display-4">Bienvenido</h1>
-    <p>Esta es nuestra sala de escape</p>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <h2>Nosotros somos Escape Masters</h2>
+        <h3>"Escapa de la rutina, entra en nuestra sala"</h3>
+        <img src="/Fotos/Logo.png">
+    </div>
+    <div>
+        <a href='@Url.Action("Tutorial")'><button class="Botones">Tutorial</button></a>
+        <a href='@Url.Action("Comenzar")'><button class="Botones">Inicio del Juego</button></a>
+        <a href='@Url.Action("Creditos")'><button class="Botones">Creditos</button></a>
+    </div>
+</body>
+</html>
+
