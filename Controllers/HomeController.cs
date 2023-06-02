@@ -32,19 +32,9 @@ public class HomeController : Controller
     public IActionResult Comenzar(){
             return View("Habitacion"+Escape.GetEstadoJuego().ToString());
         }
-    public IActionResult Habitacion(int sala, string clave){
+    public IActionResult Habitacion(int sala, string clave)
+    {
         const int maxSala = 4;
-<<<<<<< HEAD
-        Escape.ResolverSala(sala,clave);
-
-
-
-        if (sala == Escape.GetEstadoJuego()) {
-            if(Escape.ResolverSala(sala, clave)) {
-                sala = Escape.GetEstadoJuego();
-                if (sala > maxSala) return View("Victoria");
-            }
-=======
         if(sala==Escape.GetEstadoJuego()){
             if(!Escape.ResolverSala(sala,clave)) 
                 ViewBag.Error = "Clave incorrecta";
@@ -52,10 +42,7 @@ public class HomeController : Controller
         if(Escape.GetEstadoJuego() > maxSala)  
             return View("Victoria");
         return View("Habitacion"+Escape.GetEstadoJuego().ToString());
->>>>>>> 0d54a97589bb8140504085711e68cdc598dd74ab
-        }
-
-            return View();
+    }
         
     public IActionResult Privacy()
     {
