@@ -17,14 +17,11 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Habitacion1()
-    {
-        return View();
-    }
     public IActionResult Tutorial(){
         return View();
     }
     public IActionResult Creditos(){
+        ViewBag.EstadoJuego = Escape.GetEstadoJuego();
         return View();
     }
 

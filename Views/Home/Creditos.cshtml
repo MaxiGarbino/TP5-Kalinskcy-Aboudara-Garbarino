@@ -11,9 +11,16 @@
 <body>
     <header>
         <nav>
-        <a href='@Url.Action("Index")'><button class="Botones">Pagina principal</button></a>
-        <a href='@Url.Action("Tutorial")'><button class="Botones">Tutorial</button></a>
-        <a href='@Url.Action("Comenzar")'><button class="Botones">Inicio del Juego</button></a>
+        <a href='@Url.Action("Index")'><button>Pagina principal</button></a>
+        @if (ViewBag.EstadoJuego <= 1) {
+            <a href='@Url.Action("Comenzar")'><button>Inicio del Juego</button></a>
+        }
+        else {
+             <a href='@Url.Action("Comenzar")'><button>Continuar Juego</button></a>
+        }
+        <a href='@Url.Action("Tutorial")'><button>Tutorial</button></a>
+        
+        
         </nav>
     </header>
     <h1>Matias Aboudara</h1>
@@ -23,5 +30,4 @@
         Si alguien va a confiar la vida en alguien, es él</h5>
     <img src="/Fotos/Foto_Abou.jpg">
 </body>
-<footer><a>href="Index.cshtml"</a></footer>
 </html>

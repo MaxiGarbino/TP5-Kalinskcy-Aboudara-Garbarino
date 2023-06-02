@@ -26,19 +26,32 @@ section > img{
   width: 20%;
   height: 30%;
 }
-#Botones{
-  margin: 9.8%;
-  justify-content: center;
-  text-align: center;
-  width: 10%;
+button {
+  width: 27%;
+}
+button, #botonesJuego, #Botones{
   height: 60px;
   border-radius: 40px;
   background-color: #cacaca;
   transition-duration: 0.5s;
 }
-#Botones:hover{
+button, #botonesJuego{
+  margin: 2%;
+  justify-content: center;
+  text-align: center;
+}
+button:hover, #botonesJuego:hover, #Botones:hover{
   background-color: white;
 }
+#botonesJuego{
+  width: 45%;
+}
+
+#Botones{
+  margin: 9.8%;
+  width: 10%;
+}
+
 #BotonCentral{
   margin: 10%;
   justify-content: center;
