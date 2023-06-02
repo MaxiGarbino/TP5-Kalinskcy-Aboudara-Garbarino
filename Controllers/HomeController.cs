@@ -32,7 +32,8 @@ public class HomeController : Controller
     public IActionResult Comenzar(){
             return View("Habitacion"+Escape.GetEstadoJuego().ToString());
         }
-    public IActionResult Habitacion(int sala, string clave){
+    public IActionResult Habitacion(int sala, string clave)
+    {
         const int maxSala = 4;
         if(sala==Escape.GetEstadoJuego()){
             if(!Escape.ResolverSala(sala,clave)) 
@@ -41,7 +42,8 @@ public class HomeController : Controller
         if(Escape.GetEstadoJuego() > maxSala)  
             return View("Victoria");
         return View("Habitacion"+Escape.GetEstadoJuego().ToString());
-        }
+    }
+        
     public IActionResult Privacy()
     {
         return View();
