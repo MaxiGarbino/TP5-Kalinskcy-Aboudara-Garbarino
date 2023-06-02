@@ -22,11 +22,23 @@ public class HomeController : Controller
     }
 
     public IActionResult Comenzar(){
-            return View();
+            return View("Habitacion"+Escape.GetEstadoJuego().ToString());
         }
     public IActionResult Habitacion(int sala, string clave){
-            return View();
+        const int maxSala = 4;
+        Escape.ResolverSala(sala,clave);
+
+
+
+        if (sala == Escape.GetEstadoJuego()) {
+            if(Escape.ResolverSala(sala, clave)) {
+                sala = Escape.GetEstadoJuego();
+                if (sala > maxSala) return View("Victoria");
+            }
         }
+
+            return View();
+        
     public IActionResult Privacy()
     {
         return View();
