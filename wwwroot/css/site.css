@@ -16,6 +16,10 @@ html {
   position: relative;
   min-height: 100%;
 }
+div > img{
+  width: 20%;
+  height: 20%;
+}
 
 body {
   margin-bottom: 60px;
