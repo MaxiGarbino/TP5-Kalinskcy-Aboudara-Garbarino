@@ -31,6 +31,7 @@ public class HomeController : Controller
         }
     public IActionResult Habitacion(int sala, string clave)
     {
+        
         const int maxSala = 4;
         if(sala==Escape.GetEstadoJuego()){
             if(!Escape.ResolverSala(sala,clave)) 
