@@ -73,3 +73,7 @@ button:hover, #botonesJuego:hover, #Botones:hover{
   transform: scale3d(1.1, 1.1, 1.1);
   border-color: rgb(43, 43, 43);
 }
+
+.IMGcentrada {
+  align-items: center;
+}

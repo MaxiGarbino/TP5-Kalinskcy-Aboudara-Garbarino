@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mati\\Desktop\\Prog\\ORT\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj": {}
+    "C:\\Users\\Tomas Kalinscky\\OneDrive\\Escritorio\\Ort 2023\\Programación 2023\\TP5\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mati\\Desktop\\Prog\\ORT\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj": {
+    "C:\\Users\\Tomas Kalinscky\\OneDrive\\Escritorio\\Ort 2023\\Programación 2023\\TP5\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mati\\Desktop\\Prog\\ORT\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
+        "projectUniqueName": "C:\\Users\\Tomas Kalinscky\\OneDrive\\Escritorio\\Ort 2023\\Programación 2023\\TP5\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
         "projectName": "TP5-Kalinscky-Aboudara-Garbarino",
-        "projectPath": "C:\\Users\\Mati\\Desktop\\Prog\\ORT\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
-        "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mati\\Desktop\\Prog\\ORT\\TP5-Kalinskcy-Aboudara-Garbarino\\obj\\",
+        "projectPath": "C:\\Users\\Tomas Kalinscky\\OneDrive\\Escritorio\\Ort 2023\\Programación 2023\\TP5\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
+        "packagesPath": "C:\\Users\\Tomas Kalinscky\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomas Kalinscky\\OneDrive\\Escritorio\\Ort 2023\\Programación 2023\\TP5\\TP5-Kalinskcy-Aboudara-Garbarino\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tomas Kalinscky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
