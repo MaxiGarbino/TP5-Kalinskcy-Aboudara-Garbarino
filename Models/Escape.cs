@@ -1,6 +1,6 @@
 public static class Escape
 {
-    private static string[] incognitasSalas = { "13", "2", "ho", "1297" };
+    private static string[] incognitasSalas = { "56", "3", "ho", "1297" };
     private static int estadoJuego = 1;
 
     public static int GetEstadoJuego()

@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <audio src="Musica_terror.mp3" autoplay="autoplay" loop="loop"></audio>
         <nav>
         <a href='@Url.Action("Index")'><button id="botonesJuego">Pagina principal</button></a>
         <a href='@Url.Action("Creditos")'><button id="botonesJuego">Creditos</button></a>
@@ -15,7 +16,7 @@
     </header>
 <h1>Habitacion 1 - titulo del juego</h1>
 <p>En esta habitacion...</p>
-<img src="/Fotos/Acertijo_1.jpg">
+<img src="/Fotos/Acertijo_1.jpg" width= 40% height= auto>
 <form action = '@Url.Action("Habitacion")'>
     <input type="hidden" name="sala" value="1"/>
     <input type="number" placeholder="Enviar respuesta" name="clave">
