@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
-        <a href='@Url.Action("Index")'><button id="botonesJuego">Pagina principal</button></a>
-        <a href='@Url.Action("Creditos")'><button id="botonesJuego">Creditos</button></a>
+            <a href='@Url.Action("Index")'><button id="botonesJuego">Pagina principal</button></a>
+            <a href='@Url.Action("Creditos")'><button id="botonesJuego">Creditos</button></a>
         </nav>
     </header>
     <img src="/Fotos/habitacionSeisPuertas.PNG">
-    <p>Avanzas a la siguiente habitación, espada en mano, y te encuentras con una sala redonda con 6 puertas idénticas. Cada puerta lleva a una habitación diferente. En cada habitación hay 6 castillos más pequeños, y dentro de cada castillo hay 6 caballeros. Cada caballero tiene 6 espadas. ¿Cuántas espadas hay en total en la habitación?</p>
-    <form action = '@Url.Action("Habitacion")'>
-    <input type="hidden" name="sala" value="4"/>
-    <input type="number" placeholder="Enviar respuesta" name="clave">
-    <input type="submit">
+    <p>Avanzas a la siguiente habitación, espada en mano, y te encuentras con una sala redonda con 6 puertas idénticas.
+        Cada puerta lleva a una habitación diferente. En cada habitación hay 6 castillos más pequeños, y dentro de cada
+        castillo hay 6 caballeros. Cada caballero tiene 6 espadas. ¿Cuántas espadas hay en total en la habitación?</p>
+    <form action='@Url.Action("Habitacion")'>
+        <input type="hidden" name="sala" value="4" />
+        <input type="number" placeholder="Enviar respuesta" name="clave">
+        <input type="submit">
     </form>
+    <button id="Pistas" name="Pista_1" onclick="alert('Pista 1: ...'); enable('Pista_2')"> Pista 1 </button>
+    <button id="Pistas" name="Pista_2" onclick="alert('Pista 2: ...'); enable('Pista_3')" disabled> Pista 2 </button>
+    <button id="Pistas" name="Pista_3" onclick="alert('Pista 3: ...')" disabled> Pista 3 </button>
 </body>
+
 </html>
