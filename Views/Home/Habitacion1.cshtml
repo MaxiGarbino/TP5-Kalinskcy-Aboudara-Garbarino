@@ -16,8 +16,10 @@
 <h1>Habitacion 1 - titulo del juego</h1>
 <p>En esta habitacion...</p>
 <img src="/Fotos/Acertijo_1.jpg">
-<form action = '@Url.Action("Habitacion", new {sala=1})'>
+<form action = '@Url.Action("Habitacion")'>
+    <input type="hidden" name="sala" value="1"/>
     <input type="number" placeholder="Enviar respuesta" name="clave">
+    <input type="submit">
 </form>
 <p>@ViewBag.Error</p>
 <div>
