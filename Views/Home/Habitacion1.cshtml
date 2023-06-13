@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <audio src="Musica_terror.mp3" autoplay="autoplay" loop="loop"></audio>
-        <nav>
-        <a href='@Url.Action("Index")'><button id="botonesJuego">Pagina principal</button></a>
-        <a href='@Url.Action("Creditos")'><button id="botonesJuego">Creditos</button></a>
-        </nav>
-    </header>
-<h1>Habitacion 1 - titulo del juego</h1>
-<p>En esta habitacion...</p>
-<img src="/Fotos/Acertijo_1.jpg" width= 40% height= auto>
-<form action = '@Url.Action("Habitacion")'>
-    <input type="hidden" name="sala" value="1"/>
-    <input type="number" placeholder="Enviar respuesta" name="clave">
-    <input type="submit">
-</form>
-<p>@ViewBag.Error</p>
-<div>
-<button id="Pistas" onclick="alert('Pista 1: ')"> Pista 1 </button>
-<button id="Pistas" onclick="alert('Pista 2: ...')"> Pista 2 </button>
-<button id="Pistas" onclick="alert('Pista 3: ...')"> Pista 3 </button>
-</div>
+    <center>
+        <header>
+            <audio src="Musica_terror.mp3" autoplay="autoplay" loop="loop"></audio>
+            <nav>
+                <a href='@Url.Action("Index")'><button id="botonesJuego">Pagina principal</button></a>
+                <a href='@Url.Action("Creditos")'><button id="botonesJuego">Creditos</button></a>
+            </nav>
+        </header>
+        <h1>Habitacion 1 - titulo del juego</h1>
+        <p>En esta habitacion...</p>
+        <img src="/Fotos/Acertijo_1.jpg" width=40% height=auto>
+        <form action='@Url.Action("Habitacion")'>
+            <input type="hidden" name="sala" value="1" />
+            <input type="number" placeholder="Enviar respuesta" name="clave">
+            <input type="submit">
+        </form>
+        <p>@ViewBag.Error</p>
+        <div>
+            <button id="Pistas" onclick="alert('Pista 1: Corona = 8')"> Pista 1 </button>
+            <button id="Pistas" onclick="alert('Pista 2: Castillo - Corona = Sobrero de Bruja')"> Pista 2 </button>
+            <button id="Pistas" onclick="alert('Pista 3: Castillo = 64')"> Pista 3 </button>
+        </div>
+    </center>
 </body>
+
 </html>
