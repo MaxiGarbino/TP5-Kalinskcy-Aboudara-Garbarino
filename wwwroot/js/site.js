@@ -3,5 +3,5 @@
 
 // Write your JavaScript code.
 function enable(pista){
-    document.getElementsByName(pista).disabled = false;
+    document.getElementById(pista).disabled = false;
 }
