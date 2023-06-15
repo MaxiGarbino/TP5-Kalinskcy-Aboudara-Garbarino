@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Habitacion 1</title>
 </head>
 
 <body>
@@ -17,26 +17,25 @@
             </nav>
             <audio src="/Audio/Musica_terror.mp3" autoplay="autoplay" loop="loop"></audio>
         </header>
-        <h1>Habitacion 1 - Matematicas</h1>
-        <p>
-        En esta habitacion tendras que resolver ecuaciones mediante los datos que te vamos 
-            proporcionando. ¡Suerte! La necesitaras...
-        </p>
-        <img src="/Fotos/Acertijo_1.jpg">
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/WTC9VFL27zc?clip=UgkxaTxxC8xEqzL7mc3L_pHYcYmR0LfetivH&amp;clipt=EMqdDxi2jBI"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
         <form action='@Url.Action("Habitacion")'>
             <input type="hidden" name="sala" value="1" />
-            <input type="number" placeholder="Enviar respuesta" name="clave">
+            <p>
+                Elige la opcion:
+                <input type="radio" name="clave" value="1"> Puerta 1
+                <input type="radio" name="clave" value="2"> Puerta 2
+                <input type="radio" name="clave" value="3"> Puerta 3
+            </p>
             <input type="submit">
         </form>
-        <p>@ViewBag.Error</p>
-        <div>
-            <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: Corona = 8'); enable('Pista_2')"> Pista 1
-            </button>
-            <button class="Pistas" id="Pista_2"
-                onclick="alert('Pista 2: Castillo - Corona = Sobrero de Bruja'); enable('Pista_3')" disabled> Pista 2
-            </button>
-            <button class="Pistas" id="Pista_3" onclick="alert('Pista 3: Castillo = 64')" disabled> Pista 3 </button>
-        </div>
+        <p class="Error">@ViewBag.Error</p>
+        <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: Ten en cuenta las condiciones del clima'); enable('Pista_2')"> Pista 1 </button>
+        <button class="Pistas" id="Pista_2" onclick="alert('Pista 2: No es luna llena'); enable('Pista_3')" disabled> Pista 2 </button>
+        <button class="Pistas" id="Pista_3" onclick="alert('Pista 3: La puerta 1 no es')" disabled> Pista 3 </button>
     </center>
 </body>
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Habitacion 3</title>
 </head>
 
 <body>
@@ -18,25 +18,25 @@
             </nav>
             <audio src="/Audio/Musica_terror.mp3" autoplay="autoplay" loop="loop"></audio>
         </header>
-        <h1>Habitacion 3 - Los caminos</h1>
-        <p>
-        En esta habitacion tendras que elegir el camino correcto, de lo contrario
-        Te perderas para siempre en este. Cuidate...
-        </p>
-        <img class="imgHabitacion3" src="/Fotos/Acertijo_3.jpg">
-        <form>
+        <img src="/Fotos/Acertijo_3.jpg">
+        <form action='@Url.Action("Habitacion")'>
             <input type="hidden" name="sala" value="3" />
             <p>
                 Elige el camino:
                 <input type="radio" name="clave" value="1"> 1
                 <input type="radio" name="clave" value="2"> 2
                 <input type="radio" name="clave" value="3"> 3
-
             </p>
             <input type="submit">
         </form>
+<<<<<<< HEAD
         <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: Los caminos tienen que ser rectos'); enable('Pista_2')"> Pista 1 </button>
         <button class="Pistas" id="Pista_2" onclick="alert('Pista 2: Significa que no se puede doblar de direccion en 180 grados'); enable('Pista_3')" disabled> Pista 2
+=======
+        <p class="Error">@ViewBag.Error</p>
+        <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: ...'); enable('Pista_2')"> Pista 1 </button>
+        <button class="Pistas" id="Pista_2" onclick="alert('Pista 2: ...'); enable('Pista_3')" disabled> Pista 2
+>>>>>>> bf42f6863b4cb7805b9d0a6de3b195c802ce32c6
         </button>
         <button class="Pistas" id="Pista_3" onclick="alert('Pista 3: El 1 no es") disabled> Pista 3 </button>
     </center>
