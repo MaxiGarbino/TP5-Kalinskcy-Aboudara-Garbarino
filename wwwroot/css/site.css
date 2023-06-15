@@ -85,6 +85,10 @@ p{
   font-size: medium;
   margin: 1%;
 }
+.imgHabitacion3{
+  height: 50%;
+  width: 50%;
+}
 .Error {
   color: red;
   font-weight: 400;
