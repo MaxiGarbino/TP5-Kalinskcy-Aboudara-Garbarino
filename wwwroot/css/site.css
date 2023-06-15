@@ -85,3 +85,8 @@ p{
   font-size: medium;
   margin: 1%;
 }
+.Error {
+  color: red;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
