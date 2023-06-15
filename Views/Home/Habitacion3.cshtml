@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Habitacion 3</title>
 </head>
 
 <body>
@@ -18,17 +18,17 @@
             </nav>
         </header>
         <img src="/Fotos/Acertijo_3.jpg">
-        <form>
+        <form action='@Url.Action("Habitacion")'>
             <input type="hidden" name="sala" value="3" />
             <p>
                 Elige el camino:
                 <input type="radio" name="clave" value="1"> 1
                 <input type="radio" name="clave" value="2"> 2
                 <input type="radio" name="clave" value="3"> 3
-
             </p>
             <input type="submit">
         </form>
+        <p class="Error">@ViewBag.Error</p>
         <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: ...'); enable('Pista_2')"> Pista 1 </button>
         <button class="Pistas" id="Pista_2" onclick="alert('Pista 2: ...'); enable('Pista_3')" disabled> Pista 2
         </button>
