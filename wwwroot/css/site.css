@@ -25,6 +25,7 @@ body {
   margin-bottom: 60px;
   background-color: #838383;
   color: rgb(241, 241, 241);
+  font-family: 'Trebuchet MS', sans-serif;
 }
 section > img{
   width: 20%;
@@ -48,13 +49,15 @@ button:hover, #botonesJuego:hover, #Botones:hover{
 #botonesJuego{
   width: 45%;
 }
-
 #Botones{
   margin: 9.8%;
   width: 10%;
 }
-
+button{
+  border: 2px solid black;
+}
 #BotonCentral{
+  font-size: large;
   margin: 10%;
   justify-content: center;
   text-align: center;
@@ -63,6 +66,7 @@ button:hover, #botonesJuego:hover, #Botones:hover{
   border-radius: 10px;
   background-color: #cacaca;
   color: black;
+  border: 3px solid black;
   transition-duration: 0.5s;
 }
 #BotonCentral:hover{
@@ -71,6 +75,13 @@ button:hover, #botonesJuego:hover, #Botones:hover{
   transform: scale3d(1.1, 1.1, 1.1);
   border-color: rgb(43, 43, 43);
 }
+.Pistas{
+  border-radius: 5px;
+}
 .IMGcentrada {
   align-items: center;
+}
+p{
+  font-size: medium;
+  margin: 1%;
 }

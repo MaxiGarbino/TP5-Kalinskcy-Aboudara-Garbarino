@@ -37,7 +37,7 @@ public class HomeController : Controller
         if(sala==Escape.GetEstadoJuego()){
             if(!Escape.ResolverSala(sala,clave)) 
                 ViewBag.Error = "Clave incorrecta";
-        }
+        }  
         if(Escape.GetEstadoJuego() > maxSala)  
             return View("Victoria");
         return View("Habitacion"+Escape.GetEstadoJuego().ToString());

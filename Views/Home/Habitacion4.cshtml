@@ -9,26 +9,32 @@
 </head>
 
 <body>
-    <header>
-        <audio src="Musica_terror.mp3" autoplay="autoplay" loop="loop"></audio>
-        <nav>
-            <a href='@Url.Action("Index")'><button id="botonesJuego">Pagina principal</button></a>
-            <a href='@Url.Action("Creditos")'><button id="botonesJuego">Creditos</button></a>
-        </nav>
-    </header>
-    <img src="/Fotos/habitacionSeisPuertas.PNG">
-    <p>Avanzas a la siguiente habitación, espada en mano, y te encuentras con una sala redonda con 6 puertas idénticas.
-        Cada puerta lleva a una habitación diferente. En cada habitación hay 6 castillos más pequeños, y dentro de cada
-        castillo hay 6 caballeros. Cada caballero tiene 6 espadas. ¿Cuántas espadas hay en total en la habitación?</p>
+    <center>
+        <header>
+            <audio src="Musica_terror.mp3" autoplay="autoplay" loop="loop"></audio>
+            <nav>
+                <a href='@Url.Action("Index")'><button id="botonesJuego">Pagina principal</button></a>
+                <a href='@Url.Action("Creditos")'><button id="botonesJuego">Creditos</button></a>
+            </nav>
+        </header>
+        <img src="/Fotos/habitacionSeisPuertas.PNG">
+        <p>Avanzas a la siguiente habitación, espada en mano, y te encuentras con una sala redonda con 6 puertas
+            idénticas.
+            Cada puerta lleva a una habitación diferente. En cada habitación hay 6 castillos más pequeños, y dentro de
+            cada
+            castillo hay 6 caballeros. Cada caballero tiene 6 espadas. ¿Cuántas espadas hay en total en la habitación?
+        </p>
 
-    <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: ...'); enable('Pista_2')"> Pista 1 </button>
-    <button class="Pistas" id="Pista_2" onclick="alert('Pista 2: ...'); enable('Pista_3')" disabled> Pista 2 </button>
-    <button class="Pistas" id="Pista_3" onclick="alert('Pista 3: ...')" disabled> Pista 3 </button>
-    <form action='@Url.Action("Habitacion")'>
-        <input type="hidden" name="sala" value="4s" />
-        <input type="number" placeholder="Enviar respuesta" name="clave">
-        <input type="submit">
-    </form>
+        <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: ...'); enable('Pista_2')"> Pista 1 </button>
+        <button class="Pistas" id="Pista_2" onclick="alert('Pista 2: ...'); enable('Pista_3')" disabled> Pista 2
+        </button>
+        <button class="Pistas" id="Pista_3" onclick="alert('Pista 3: ...')" disabled> Pista 3 </button>
+        <form action='@Url.Action("Habitacion")'>
+            <input type="hidden" name="sala" value="4" />
+            <input type="number" placeholder="Enviar respuesta" name="clave">
+            <input type="submit">
+        </form>
+    </center>
 </body>
 
 </html>
