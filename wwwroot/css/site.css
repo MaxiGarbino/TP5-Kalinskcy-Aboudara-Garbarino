@@ -16,10 +16,7 @@ html {
   position: relative;
   min-height: 100%;
 }
-div > img{
-  width: 30%;
-  height: auto;
-}
+
 
 body {
   margin-bottom: 60px;
@@ -27,7 +24,7 @@ body {
   color: rgb(241, 241, 241);
   font-family: 'Trebuchet MS', sans-serif;
 }
-section > img{
+section img{
   width: 20%;
   height: 30%;
 }
@@ -61,7 +58,6 @@ button{
   font-weight: bold;
   font-size: x-large;
   margin: 10%;
-  margin-top: 5%;
   justify-content: center;
   text-align: center;
   width: 20%;
@@ -96,4 +92,17 @@ p{
   color: red;
   font-weight: 400;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.creditos{
+  float: left;
+  width: 28%;
+  margin: 1%;
+}
+.creditos img {
+  width: 100%;
+}
+#suerte{
+  margin-top: 3%;
+  width: 20%;
+  height: auto;
 }
