@@ -74,15 +74,12 @@ button:hover, #botonesJuego:hover, #Botones:hover{
 .IMGcentrada {
   align-items: center;
 }
-<<<<<<< HEAD
 .imgHabitacion3{
   height: 50%;
   width: 50%;
-=======
-
+}
 .Error {
   color: red;
   font-weight: 400;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
->>>>>>> bf42f6863b4cb7805b9d0a6de3b195c802ce32c6
 }
