@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "azEJMlLWaQ9QkG0wf73LDuRrJ5LifnyRv5lAdt9Td/urcRrw2+e26YH5e37bSJzCqRc+lbQy5ENGyACU60DNXA==",
   "success": true,
   "projectFilePath": "Z:\\Programacion\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
-=======
-  "dgSpecHash": "AgLrbXvMYUF+BumUJUrccR5NIGvzosmvRB7TbIPpJunYO75aKRJBOVe80Bcpn7lGIg9RC0IqOV2KDtW9+VrQ6g==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\47433817\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
->>>>>>> 529242ed730ab36314f9e0d2ca6b1fb9b13f417b
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché Z:\\Programacion\\TP5-Kalinskcy-Aboudara-Garbarino\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
