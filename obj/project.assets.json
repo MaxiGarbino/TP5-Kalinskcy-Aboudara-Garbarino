@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\47433817\\.nuget\\packages\\": {},
+    "C:\\Users\\47701750\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47433817\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
+      "projectUniqueName": "Z:\\Programacion\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
       "projectName": "TP5-Kalinscky-Aboudara-Garbarino",
-      "projectPath": "C:\\Users\\47433817\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
-      "packagesPath": "C:\\Users\\47433817\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47433817\\TP5-Kalinskcy-Aboudara-Garbarino\\obj\\",
+      "projectPath": "Z:\\Programacion\\TP5-Kalinskcy-Aboudara-Garbarino\\TP5-Kalinscky-Aboudara-Garbarino.csproj",
+      "packagesPath": "C:\\Users\\47701750\\.nuget\\packages\\",
+      "outputPath": "Z:\\Programacion\\TP5-Kalinskcy-Aboudara-Garbarino\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\47433817\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\47701750\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -72,5 +72,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché Z:\\Programacion\\TP5-Kalinskcy-Aboudara-Garbarino\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

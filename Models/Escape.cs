@@ -13,6 +13,8 @@ public static class Escape
         if (Incognita != incognitasSalas[Sala - 1])
             return false;
         estadoJuego++;
+        if (Sala == 4)
+            estadoJuego = 1;
         return true;
     }
 }
