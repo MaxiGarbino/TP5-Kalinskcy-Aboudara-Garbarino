@@ -11,16 +11,9 @@
 <body>
     <header>
         <nav>
-            <a href='@Url.Action("Index")'><button id="Botones">Pagina principal</button></a>
-            @if (ViewBag.EstadoJuego <= 1)
-            {
-                <a href='@Url.Action("Comenzar")'><button id="Botones">Inicio del Juego</button></a>
-            }
-            else
-            {
-                <a href='@Url.Action("Comenzar")'><button id="Botones">Continuar Juego</button></a>
-            }
-            <a href='@Url.Action("Tutorial")'><button id="Botones">Tutorial</button></a>
+            <a href='@Url.Action("Index")'><button class="Botones">Pagina principal</button></a>
+            <a href='@Url.Action("Comenzar")'><button class="Botones">Jugar</button></a>
+            <a href='@Url.Action("Tutorial")'><button class="Botones">Tutorial</button></a>
 
 
         </nav>
