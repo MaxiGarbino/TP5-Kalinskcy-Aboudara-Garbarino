@@ -74,7 +74,10 @@ button:hover, #botonesJuego:hover, #Botones:hover{
 .IMGcentrada {
   align-items: center;
 }
-
+.imgHabitacion3{
+  height: 50%;
+  width: 50%;
+}
 .Error {
   color: red;
   font-weight: 400;
