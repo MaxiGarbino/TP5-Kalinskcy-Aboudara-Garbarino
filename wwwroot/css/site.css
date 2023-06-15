@@ -16,10 +16,7 @@ html {
   position: relative;
   min-height: 100%;
 }
-div > img{
-  width: 30%;
-  height: auto;
-}
+
 
 body {
   margin-bottom: 60px;
@@ -94,4 +91,14 @@ p{
   color: red;
   font-weight: 400;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.creditos{
+  float: left;
+  width: 28%;
+  margin: 1%;
+}
+.creditos img {
+  width: 100%;
 }
