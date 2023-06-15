@@ -16,8 +16,14 @@
                 <a href='@Url.Action("Index")'><button id="botonesJuego">Pagina principal</button></a>
                 <a href='@Url.Action("Creditos")'><button id="botonesJuego">Creditos</button></a>
             </nav>
+            <audio src="/Audio/Musica_terror.mp3" autoplay="autoplay" loop="loop"></audio>
         </header>
-        <img src="/Fotos/Acertijo_3.jpg">
+        <h1>Habitacion 3 - Los caminos</h1>
+        <p>
+        En esta habitacion tendras que elegir el camino correcto, de lo contrario
+        Te perderas para siempre en este. Cuidate...
+        </p>
+        <img class="imgHabitacion3" src="/Fotos/Acertijo_3.jpg">
         <form>
             <input type="hidden" name="sala" value="3" />
             <p>
@@ -29,10 +35,10 @@
             </p>
             <input type="submit">
         </form>
-        <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: ...'); enable('Pista_2')"> Pista 1 </button>
-        <button class="Pistas" id="Pista_2" onclick="alert('Pista 2: ...'); enable('Pista_3')" disabled> Pista 2
+        <button class="Pistas" id="Pista_1" onclick="alert('Pista 1: Los caminos tienen que ser rectos'); enable('Pista_2')"> Pista 1 </button>
+        <button class="Pistas" id="Pista_2" onclick="alert('Pista 2: Significa que no se puede doblar de direccion en 180 grados'); enable('Pista_3')" disabled> Pista 2
         </button>
-        <button class="Pistas" id="Pista_3" onclick="alert('Pista 3: ...')" disabled> Pista 3 </button>
+        <button class="Pistas" id="Pista_3" onclick="alert('Pista 3: El 1 no es") disabled> Pista 3 </button>
     </center>
 </body>
 </html>
